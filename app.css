@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'GFS Neohellenic', sans-serif;
   font-size: 1.2em;
+  background-color: #becacc;
+  background-image: url("egg-shell.png");
+  color: rgb(49, 49, 49);
 }
 
 
@@ -17,8 +20,18 @@
 }
 
 .textbox {
-  margin: auto;
-  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
+}
+
+#input, #output {
+  background-color: #becacc;
+  background-image: none;
 }
 
 .note {
