@@ -1,14 +1,15 @@
 {
   "name": "remnum",
   "version": "1.0.0",
-  "description": "",
+  "description": "Removes numbers and carriage returns from text copied into textarea box, then automatically copies sanitized text to clipboard.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ronald van der Bergh",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "browser-sync": "^2.26.3"
   }
 }
