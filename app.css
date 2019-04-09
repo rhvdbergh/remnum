@@ -11,31 +11,62 @@
 
 .header {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   display: flex;
   align-content: stretch;
+  flex-wrap: wrap;
 }
 
 .textbox {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   border: none;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  
+  width: 45%;
 }
 
 #input, #output {
   background-color: #becacc;
   background-image: none;
+  width: 100%;
 }
 
 .note {
   font-size: 1.1em;
   margin-top: 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 1.1em;
+  }
+
+  .header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .note {
+    font-size: 1em;
+  }
+  
+  .textbox {
+    width: 96%;
+    margin-top: 20px;
+  }
+
+  #wrapper {
+    flex-direction: column-reverse;
+  }
 }
